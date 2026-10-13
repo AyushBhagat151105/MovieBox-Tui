@@ -4,6 +4,7 @@
 
 ### Fixed
 - **Media Playback & Subtitle Engine**:
+  - Removed `--play-and-exit` from VLC player invocations so the player stays active across adaptive and HLS chunk transitions.
   - Reset legacy Android player defaults in graphical X11 and Wayland sessions so native Linux players take precedence over external Android intent dialogs.
   - Prioritized native Linux media player paths over foreign container fallbacks on Linux systems and preserved dynamic auto-player resolution for unconfigured sessions.
 - **Providers & Stream Resolution**:
