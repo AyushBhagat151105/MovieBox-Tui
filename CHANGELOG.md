@@ -2,6 +2,8 @@
 
 ## [Unreleased]
 
+## [0.1.27] - 2026-10-23
+
 ### Fixed
 - **Media Playback & Subtitle Engine**:
   - Removed `--play-and-exit` from VLC player invocations so the player stays active across adaptive and HLS chunk transitions.
